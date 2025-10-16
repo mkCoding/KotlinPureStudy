@@ -1,4 +1,4 @@
-package com.example.kotlinpurestudy
+package com.example.kotlinpurestudy.inheritance_study
 
 fun main(){
 
@@ -18,7 +18,7 @@ open class Animal{
     fun move(){}
 }
 
-class Dog:Animal() {
+class Dog: Animal() {
     // Dog inherits from Animal
     fun bark(){
         println("Dog is barking")
