@@ -9,10 +9,14 @@ fun main(){
     dog.bark()
     dog.howl()
     dog.wagTail()
+
+    println(dog.color)
 }
 
 
-open class Animal{
+open class Animal(){
+    val color:String = "Brown" // just adding this to show inheritance of properties
+
     fun eat(){}
     fun sleep(){}
     fun move(){}
