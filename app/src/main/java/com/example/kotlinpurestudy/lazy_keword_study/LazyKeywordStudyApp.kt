@@ -1,4 +1,4 @@
-package com.example.kotlinpurestudy
+package com.example.kotlinpurestudy.lazy_keword_study
 
 fun main(){
 
