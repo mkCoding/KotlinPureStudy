@@ -5,8 +5,8 @@ fun main() {
 // lambada - anonymous function
 
     // 2 params
-    val sum = { a: Int, b: Int -> a * b }
-    val result = sum(20, 2)
+    val sum = {a:Int, b:Int -> a * b}
+    val result = sum(20,2)
     println(result)
 
     // 1 param
